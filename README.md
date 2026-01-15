@@ -4,7 +4,7 @@ Esta aplicación implementa una API REST de prueba para la gestión de solicitud
 
 ---
 
-## Ejecución del proyecto
+## 1) Ejecución del proyecto
 
 ### Requisitos
 - Java 21
@@ -26,7 +26,7 @@ http://localhost:8080
 
 ---
 
-## Endpoints disponibles
+## 2) Endpoints disponibles
 
 ### Crear una solicitud de préstamo
 ```
@@ -90,7 +90,7 @@ PATCH /loans/{id}/status
 
 ---
 
-## Arquitectura y decisiones técnicas
+## 3) Arquitectura y decisiones técnicas
 
 ### Tecnologías utilizadas
 - Java 21
@@ -140,7 +140,7 @@ src/
 
 ---
 
-##  Manejo de errores
+## 4) Manejo de errores
 
 Todos los errores de la API siguen un formato común:
 
@@ -160,7 +160,7 @@ Todos los errores de la API siguen un formato común:
 
 ---
 
-## Documentación de la API (Swagger)
+## 5) Documentación de la API (Swagger)
 
 La documentación OpenAPI se genera automáticamente a partir del código fuente.
 
@@ -172,7 +172,7 @@ La documentación OpenAPI se genera automáticamente a partir del código fuente
 
 ---
 
-## Pruebas
+## 6) Pruebas
 
 La API puede probarse mediante herramientas como Postman o curl.
 
@@ -188,7 +188,7 @@ Flujo recomendado:
 
 ---
 
-## Posibles mejoras
+## 7) Posibles mejoras
 
 - Persistencia en base de datos.
 - Seguridad y autenticación.
